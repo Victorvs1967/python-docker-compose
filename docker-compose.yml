@@ -15,4 +15,3 @@ services:
       - server
     volumes:
       - ./files:/client/db
-
