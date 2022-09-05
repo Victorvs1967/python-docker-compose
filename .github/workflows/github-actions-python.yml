@@ -1,7 +1,8 @@
 name: GitHub Actions Python
 on: [push]
 jobs:
-  init:
+  build:
+
     runs-on: ubuntu-latest
     strategy:
       matrix:
